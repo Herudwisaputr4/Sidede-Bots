@@ -39,12 +39,14 @@
 
         </article>
     </main>
+
     <!-- Chart library -->
-    <script src="./plugins/chart.min.js"></script>
+    <script src="{{ url('public/master-admin') }}/plugins/chart.min.js"></script>
     <!-- Icons library -->
-    <script src="plugins/feather.min.js"></script>
+    <script src="{{ url('public/master-admin') }}/plugins/feather.min.js"></script>
     <!-- Custom scripts -->
-    <script src="js/script.js"></script>
+    <script src="{{ url('public/master-admin') }}/js/script.js"></script>
+
 </body>
 
 </html>
